@@ -68,7 +68,7 @@ def generate_pdf(data):
                 draw_spaced_text(draw, value, x, y, font, spacing=39.4)
         
         elif i == 1 and taxpayer_is_student == 0:
-            # Координаты полей на второй странице (если налогоплательщик и обучающийся не одно лица)
+            # Координаты полей на второй странице (если налогоплательщик и обучающийся не одно лицо)
             fields = {
                 "org_inn": (520, 40), "org_kpp": (520, 102),
                 "student_lastname": (204, 293), "student_firstname": (204, 363), "student_surname": (204, 433), "student_inn": (204, 503),
